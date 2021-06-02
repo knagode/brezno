@@ -20,6 +20,17 @@ body #fusebox-player-7Lxm6Gpgjz.fbx-player .fbx-player-layout {
   margin: -10px 10px -10px -22px;
 }
 
+$primary-color: #c49935;  // #c49935
+$primary-color-hover: darken($primary-color, 10%);
+$secondary-color: #63b85a; 
+
+.color-primary {
+  color: $primary-color;
+}
+.color-secundary {
+  color: $secondary-color;
+}
+
 
 @charset "UTF-8";
 /*!
@@ -47,7 +58,7 @@ body #fusebox-player-7Lxm6Gpgjz.fbx-player .fbx-player-layout {
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #f4623a;
+  --bs-primary: $primary-color;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -2973,12 +2984,12 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
+  background-color: $primary-color;
   border-color: #f4623a;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
+  background-color: $primary-color-hover;
   border-color: #c34e2e;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -7414,7 +7425,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: $primary-color !important;
 }
 
 .bg-secondary {
@@ -10889,7 +10900,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: $primary-color;
   opacity: 1;
 }
 
