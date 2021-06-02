@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+
+{% include head.html %}
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=100849623305175&autoLogAppEvents=1" nonce="VjgWMwKn"></script>
+
+
+
+  {% include navbar.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+</body>
+
+</html>
