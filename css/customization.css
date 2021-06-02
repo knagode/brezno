@@ -1,0 +1,17 @@
+.fbx-player-wrapper {
+  position: fixed;
+  bottom: -17px;
+  left: 5px;
+  right: 5px;
+}
+
+body #fusebox-player-7Lxm6Gpgjz.fbx-player .fbx-player-layout {
+  // background-color: black!important;
+}
+
+
+.masthead a img {
+  border-radius: 50%;
+  width: 70px;
+  margin: -10px 10px -10px -22px;
+}
