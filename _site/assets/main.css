@@ -1,5 +1,9 @@
 @charset "UTF-8";
+.quote { font: Amaranth; color: gray; font-size: 150%; }
+
 .fbx-player-wrapper { position: fixed; bottom: -17px; left: 5px; right: 5px; }
+
+.no-height { min-height: auto !important; height: auto !important; }
 
 .masthead a img { border-radius: 50%; width: 70px; margin: -10px 10px -10px -22px; }
 
